@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FCB Automações | Chatbots com IA & Automação Inteligente de Atendimento</title>
+  <meta name="description" content="Transforme o atendimento e as vendas da sua empresa com a FCB Automações. Chatbots inteligentes com IA no WhatsApp e Webchat, atendimento 24/7, agendamentos, catálogo e integração CRM.">
+  <meta name="keywords" content="FCB Automações, chatbot com IA, automação de WhatsApp, atendimento inteligente, inteligência artificial para empresas, CRM, vendas automáticas">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FCB Automações | Chatbots com IA & Automação de Atendimento">
+  <meta property="og:description" content="Atendimento inteligente que responde em segundos e transforma conversas em vendas automáticas 24 horas por dia.">
+  <meta property="og:image" content="assets/logo_fcb.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+  <!-- Cursor Glow Follower -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-in">
+      <a href="#" class="brandmark" aria-label="FCB Automações">
+        <img src="assets/logo_fcb.png" alt="FCB" class="nav-logo">
+      </a>
+
+      <div class="navlinks">
+        <a href="#solucoes">Soluções</a>
+        <a href="#pilares">Como Funciona</a>
+        <a href="#demo">Demonstração</a>
+        <a href="#resultados">Resultados (ROI)</a>
+        <a href="#setores">Segmentos</a>
+        <a href="#planos">Planos</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="nav-cta">
+        <a href="#contato" class="btn btn-primary btn-sm">Solicitar Proposta</a>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Menu móvel">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a href="#solucoes" class="m-link">Soluções</a>
+      <a href="#pilares" class="m-link">Como Funciona</a>
+      <a href="#demo" class="m-link">Demonstração</a>
+      <a href="#resultados" class="m-link">Resultados</a>
+      <a href="#setores" class="m-link">Segmentos</a>
+      <a href="#planos" class="m-link">Planos</a>
+      <a href="#faq" class="m-link">Perguntas Frequentes</a>
+      <a href="#contato" class="btn btn-primary m-btn">Solicitar Proposta Sob Medida</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="topo">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-grid-pattern"></div>
+
+    <div class="wrap hero-in">
+      <div class="eyebrow-badge">
+        <span class="eyebrow-dot"></span>
+        <span class="eyebrow-text">FCB LTDA · TECNOLOGIA & INTELIGÊNCIA ARTIFICIAL</span>
+      </div>
+
+      <h1 class="hero-title">
+        Atendimento que responde em segundos e <em class="glow-text">transforma conversas em vendas</em>.
+      </h1>
+
+      <p class="hero-lead">
+        A <strong>FCB Automações</strong> desenvolve chatbots com IA generativa e fluxos inteligentes para a sua empresa. Atenda 24h por dia no WhatsApp e Webchat, qualifique clientes, envie orçamentos e integre ao seu CRM — sem filas e sem perder oportunidades.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#demo" class="btn btn-primary btn-lg">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor"/></svg>
+          Ver Demonstração Interativa
+        </a>
+        <a href="#contato" class="btn btn-secondary btn-lg">Solicitar Proposta Sob Medida</a>
+      </div>
+
+      <div class="hero-tags">
+        <span class="tag"><i class="tag-icon">⚡</i> WhatsApp Oficial (Meta)</span>
+        <span class="tag"><i class="tag-icon">💬</i> Webchat Inteligente</span>
+        <span class="tag"><i class="tag-icon">🤖</i> IA Generativa Personalizada</span>
+        <span class="tag"><i class="tag-icon">🌙</i> 24h / 7 dias por semana</span>
+        <span class="tag"><i class="tag-icon">💳</i> Pagamento Pix Automático</span>
+        <span class="tag"><i class="tag-icon">🔄</i> Transição para Atendente Humano</span>
+        <span class="tag"><i class="tag-icon">📊</i> Sincronização com CRM & ERP</span>
+      </div>
+
+      <!-- Proof KPIs -->
+      <div class="proof-grid">
+        <div class="proof-card">
+          <div class="n glow-num">~3s</div>
+          <div class="k">Tempo médio de resposta da IA aos clientes</div>
+        </div>
+        <div class="proof-card">
+          <div class="n glow-num">24/7</div>
+          <div class="k">Operação ativa ininterrupta sem custos de horas extras</div>
+        </div>
+        <div class="proof-card">
+          <div class="n glow-num">+65%</div>
+          <div class="k">Aumento médio na conversão de leads qualificados</div>
+        </div>
+        <div class="proof-card">
+          <div class="n glow-num">1 clique</div>
+          <div class="k">Para o atendente humano assumir com histórico completo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section: Pilares / O que fazemos -->
+  <section class="sec" id="solucoes">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Solução Integrada</div>
+        <h2>Quatro pilares de uma operação comercial automatizada</h2>
+        <p>A IA, o canal de vendas, a central de atendimento humano e o painel de métricas trabalham juntos. Tudo pronto para alavancar os resultados da sua empresa.</p>
+      </div>
+
+      <div class="pillars-grid" id="pilares">
+        <!-- Pilar 1 -->
+        <div class="pillar-card">
+          <div class="pillar-num">01 · CONVERSA INTELIGENTE</div>
+          <div class="pillar-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Agente de IA Generativa</h3>
+          <p>Atende em linguagem natural como um consultor especialista da sua empresa, tanto no WhatsApp quanto no Webchat.</p>
+          <ul class="pillar-list">
+            <li>Sem menus engessados ("digite 1 para...")</li>
+            <li>Entende áudios, textos e contextos complexos</li>
+            <li>Treinado estritamente com os dados e regras do seu negócio</li>
+          </ul>
+          <div class="badge"><span class="pill pill-active">24/7 Disponível</span></div>
+        </div>
+
+        <!-- Pilar 2 -->
+        <div class="pillar-card highlight-card">
+          <div class="pillar-num">02 · VENDAS & AGENDAMENTOS</div>
+          <div class="pillar-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <h3>Catálogo & Checkout Automático</h3>
+          <p>Apresente produtos, serviços ou horários de agenda diretamente na conversa do cliente, sem necessidade de baixar aplicativos.</p>
+          <ul class="pillar-list">
+            <li>Geração imediata de orçamentos e pedidos</li>
+            <li>Cobrança via Pix com conciliação automática</li>
+            <li>Agendamento direto integrado à sua agenda</li>
+          </ul>
+          <div class="badge"><span class="pill pill-active">Zero Atrito</span></div>
+        </div>
+
+        <!-- Pilar 3 -->
+        <div class="pillar-card">
+          <div class="pillar-num">03 · GESTÃO DE ATENDIMENTO</div>
+          <div class="pillar-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Console Multi-Atendente com CRM</h3>
+          <p>Quando a negociação exige sensibilidade humana, sua equipe assume a conversa em 1 segundo com todo o histórico já mastigado pela IA.</p>
+          <ul class="pillar-list">
+            <li>Múltiplos atendentes em um único número de WhatsApp</li>
+            <li>Funil de vendas por etapas (CRM visual)</li>
+            <li>Notas internas e transferência entre departamentos</li>
+          </ul>
+          <div class="badge"><span class="pill pill-active">Atendimento Híbrido</span></div>
+        </div>
+
+        <!-- Pilar 4 -->
+        <div class="pillar-card">
+          <div class="pillar-num">04 · CONTROLE & VISÃO</div>
+          <div class="pillar-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+          </div>
+          <h3>Painel Administrativo & Métricas</h3>
+          <p>Visão executiva em tempo real: volume de conversas, leads qualificados, taxa de conversão e produtos/serviços mais procurados.</p>
+          <ul class="pillar-list">
+            <li>Relatórios diários e mensais de desempenho</li>
+            <li>Exportação de leads e contatos para sua base</li>
+            <li>Métricas de tempo de resposta e satisfação (CSAT)</li>
+          </ul>
+          <div class="badge"><span class="pill pill-active">Decisão por Dados</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Demonstração Interativa (Player) -->
+  <section class="sec sec-dark" id="demo">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Demonstração Interativa</div>
+        <h2>Veja o chatbot da FCB em ação na prática</h2>
+        <p>Abaixo está a simulação exata da experiência que o seu cliente tem ao interagir com a automação. Clique nas etapas da jornada para acompanhar cada momento.</p>
+      </div>
+
+      <!-- Demo Tabs Controller -->
+      <div class="demo-tabs">
+        <button class="tab-btn active" data-view="cliente">
+          <span class="tab-dot"></span> Visão do Cliente (WhatsApp)
+        </button>
+        <button class="tab-btn" data-view="agente">
+          <span class="tab-dot"></span> Visão do Gestor (Console & CRM)
+        </button>
+      </div>
+
+      <!-- Player 1: Visão do Cliente -->
+      <div class="demo-player-container active" id="player-cliente">
+        <div class="player-grid">
+          <!-- Smartphone Mockup -->
+          <div class="phone-wrapper">
+            <div class="stage-phone">
+              <div class="phone-notch">
+                <span class="speaker"></span>
+                <span class="camera"></span>
+              </div>
+              <div class="screen phone-screen" id="phoneChatScreen">
+                <!-- WhatsApp Top Header -->
+                <div class="wa-header">
+                  <div class="wa-user-info">
+                    <div class="wa-avatar">
+                      <img src="assets/logo_fcb.png" alt="FCB">
+                      <span class="wa-online-badge"></span>
+                    </div>
+                    <div class="wa-text">
+                      <div class="wa-name">FCB Atendimento IA <svg class="verified-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#38BDF8"/></svg></div>
+                      <div class="wa-status">Online agora · Responde em ~3s</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Chat Messages Body -->
+                <div class="wa-body" id="chatBody">
+                  <!-- Messages dynamically loaded by JavaScript based on active step -->
+                </div>
+
+                <!-- Chat Input Mockup -->
+                <div class="wa-footer">
+                  <div class="wa-input-mock">Mensagem...</div>
+                  <div class="wa-send-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stage-controls">
+              <button class="btn btn-secondary btn-sm" id="replayStep">↻ Rever Etapa</button>
+              <span class="counter-badge" id="stepCounter">1 / 5</span>
+              <button class="btn btn-primary btn-sm" id="nextStep">Próxima Etapa →</button>
+            </div>
+          </div>
+
+          <!-- Step Selection List -->
+          <div class="steps-column">
+            <h3 class="steps-title">Jornada de Compra & Atendimento:</h3>
+            <ol class="steps-list" id="clientStepsList">
+              <li class="step-item active" data-step="0">
+                <div class="step-num">01</div>
+                <div class="step-content">
+                  <div class="step-t">Chegada do Lead no WhatsApp</div>
+                  <div class="step-d">O cliente entra em contato pelo botão do site, anúncio ou indicação com uma dúvida ou pedido.</div>
+                  <div class="step-meta">Disparo imediato · Sem tempo de espera</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="1">
+                <div class="step-num">02</div>
+                <div class="step-content">
+                  <div class="step-t">Resposta Inteligente & Empática (~3s)</div>
+                  <div class="step-d">A IA reconhece a intenção, cumprimenta cordialmente e inicia a qualificação de forma fluida.</div>
+                  <div class="step-meta">Processamento de Linguagem Natural</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="2">
+                <div class="step-num">03</div>
+                <div class="step-content">
+                  <div class="step-t">Apresentação de Opções / Catálogo</div>
+                  <div class="step-d">A IA envia links filtrados, tabela de preços, serviços ou opções de horário de acordo com a necessidade exata.</div>
+                  <div class="step-meta">Apresentação visual dentro do chat</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="3">
+                <div class="step-num">04</div>
+                <div class="step-content">
+                  <div class="step-t">Fechamento & Checkout com Pix</div>
+                  <div class="step-d">O cliente confirma a contratação/compra e recebe a chave Pix instantânea com código copia-e-cola.</div>
+                  <div class="step-meta">Conversão direta sem sair da conversa</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="4">
+                <div class="step-num">05</div>
+                <div class="step-content">
+                  <div class="step-t">Sincronização no CRM & Notificação</div>
+                  <div class="step-d">O pedido ou agendamento é sincronizado instantaneamente com seu sistema e a equipe é notificada.</div>
+                  <div class="step-meta">Operação 100% integrada e sem falha humana</div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <!-- Player 2: Visão do Gestor / Agente -->
+      <div class="demo-player-container" id="player-agente">
+        <div class="player-grid wide-grid">
+          <div class="browser-wrapper">
+            <div class="stage-browser">
+              <div class="chrome-bar">
+                <div class="chrome-dots">
+                  <span class="c-dot red"></span>
+                  <span class="c-dot yellow"></span>
+                  <span class="c-dot green"></span>
+                </div>
+                <div class="chrome-url">console.fcbautomacoes.com.br/dashboard</div>
+              </div>
+              <div class="screen browser-screen" id="browserScreen">
+                <!-- Live Agent Dashboard Mockup -->
+                <div class="console-mockup">
+                  <div class="console-sidebar">
+                    <div class="sidebar-logo"><img src="assets/logo_fcb.png" alt="FCB"></div>
+                    <div class="sidebar-menu">
+                      <div class="sb-item active">💬 Conversas <span class="badge-count">12</span></div>
+                      <div class="sb-item">👥 Leads Qualificados</div>
+                      <div class="sb-item">📊 Funil de Vendas</div>
+                      <div class="sb-item">⚙️ Configurações IA</div>
+                    </div>
+                  </div>
+                  <div class="console-main">
+                    <div class="console-top">
+                      <div class="c-title">Central de Atendimento Unificada · FCB</div>
+                      <div class="c-status"><span class="dot-live"></span> 4 Atendentes Online · IA Ativa</div>
+                    </div>
+                    <div class="console-body" id="agentConsoleBody">
+                      <!-- Content dynamically rendered -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stage-controls">
+              <button class="btn btn-secondary btn-sm" id="replayAgentStep">↻ Rever Etapa</button>
+              <span class="counter-badge" id="agentStepCounter">1 / 4</span>
+              <button class="btn btn-primary btn-sm" id="nextAgentStep">Próxima Etapa →</button>
+            </div>
+          </div>
+
+          <!-- Agent Steps Column -->
+          <div class="steps-column">
+            <h3 class="steps-title">Visão da Equipe & Gestão:</h3>
+            <ol class="steps-list" id="agentStepsList">
+              <li class="step-item active" data-step="0">
+                <div class="step-num">01</div>
+                <div class="step-content">
+                  <div class="step-t">Fila Centralizada Multicanal</div>
+                  <div class="step-d">Todos os atendimentos do WhatsApp, Webchat e redes chegam em um painel unificado para sua equipe.</div>
+                  <div class="step-meta">Triagem automática pela IA</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="1">
+                <div class="step-num">02</div>
+                <div class="step-content">
+                  <div class="step-t">Resumo Inteligente para o Atendente</div>
+                  <div class="step-d">A IA sintetiza o que o cliente deseja antes mesmo do atendente abrir a conversa, economizando minutos preciosos.</div>
+                  <div class="step-meta">Zero retrabalho na transição</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="2">
+                <div class="step-num">03</div>
+                <div class="step-content">
+                  <div class="step-t">Intervenção Humana sem Ruído</div>
+                  <div class="step-d">O consultor assume em 1 clique, envia propostas personalizadas e o cliente continua no mesmo chat do WhatsApp.</div>
+                  <div class="step-meta">Transição imperceptível e profissional</div>
+                </div>
+              </li>
+              <li class="step-item" data-step="3">
+                <div class="step-num">04</div>
+                <div class="step-content">
+                  <div class="step-t">Dashboard de Métricas & ROI</div>
+                  <div class="step-d">Acompanhe tempo médio de resposta, volume de contatos resolvidos 100% pela IA e vendas geradas.</div>
+                  <div class="step-meta">Visão completa em tempo real</div>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Resultados & Comparativo de ROI -->
+  <section class="sec" id="resultados">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Retorno sobre Investimento</div>
+        <h2>O impacto financeiro de automatizar seu atendimento</h2>
+        <p>Compare o modelo tradicional de atendimento manual versus o poder de escala de uma operação potencializada pela FCB Automações.</p>
+      </div>
+
+      <div class="compare-table-wrapper">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Critério de Operação</th>
+              <th class="col-bad">Atendimento Manual Tradicional</th>
+              <th class="col-good">Com a FCB Automações (IA)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tempo de primeira resposta</strong></td>
+              <td class="col-bad"><span class="cross">✕</span> 15 a 45 minutos (ou horas em pico)</td>
+              <td class="col-good"><span class="check">✓</span> <strong>~3 segundos</strong> (imediato e humanizado)</td>
+            </tr>
+            <tr>
+              <td><strong>Disponibilidade de horário</strong></td>
+              <td class="col-bad"><span class="cross">✕</span> Horário comercial apenas (8h às 18h)</td>
+              <td class="col-good"><span class="check">✓</span> <strong>24 horas por dia</strong>, 7 dias por semana</td>
+            </tr>
+            <tr>
+              <td><strong>Perda de leads fora do horário</strong></td>
+              <td class="col-bad"><span class="cross">✕</span> Mais de 40% desistem e compram no concorrente</td>
+              <td class="col-good"><span class="check">✓</span> <strong>0% de perda</strong> — todo contato é atendido e capturado</td>
+            </tr>
+            <tr>
+              <td><strong>Capacidade de atendimento simultâneo</strong></td>
+              <td class="col-bad"><span class="cross">✕</span> 2 a 3 conversas por atendente (com estresse)</td>
+              <td class="col-good"><span class="check">✓</span> <strong>Ilimitado</strong> — 100 ou 1.000 pessoas ao mesmo tempo</td>
+            </tr>
+            <tr>
+              <td><strong>Custo para dobrar a capacidade</strong></td>
+              <td class="col-bad"><span class="cross">✕</span> Contratações, treinamentos e encargos CLT</td>
+              <td class="col-good"><span class="check">✓</span> <strong>Custo fixo e previsível</strong>, escala instantânea</td>
+            </tr>
+            <tr>
+              <td><strong>Taxa de erro e esquecimento</strong></td>
+              <td class="col-bad"><span class="cross">✕</span> Mensagens esquecidas, dados de pedidos errados</td>
+              <td class="col-good"><span class="check">✓</span> <strong>Precisão total</strong> e registro automático no CRM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="kpi-banner">
+        <div class="kpi-banner-icon">💡</div>
+        <div class="kpi-banner-text">
+          <strong>Regra dos 5 Minutos:</strong> Estudos de vendas comprovam que leads respondidos nos primeiros <strong>5 minutos</strong> têm até <strong>21x mais probabilidade</strong> de fechar negócio do que aqueles respondidos após 30 minutos. Com a FCB, sua resposta ocorre em 3 segundos.
+        </div>
+      </div>
+
+      <!-- Calculadora de ROI Interativa -->
+      <div class="roi-calc-container" id="calculadora-roi" data-aos="fade-up">
+        <div class="roi-calc-header">
+          <div class="calc-badge">SIMULADOR INTERATIVO</div>
+          <h3 class="calc-title">Calcule quanto a sua empresa ganha e economiza com a FCB</h3>
+          <p class="calc-subtitle">Ajuste os controles abaixo para simular o impacto de automatizar seu WhatsApp e Webchat com IA.</p>
+        </div>
+
+        <div class="roi-calc-grid">
+          <div class="roi-inputs-col">
+            <!-- Slider 1 -->
+            <div class="calc-field">
+              <div class="calc-field-top">
+                <label for="rangeLeads">Contatos / Leads recebidos por dia:</label>
+                <span class="calc-value-badge" id="valLeads">45 contatos/dia</span>
+              </div>
+              <input type="range" id="rangeLeads" min="10" max="300" step="5" value="45" class="calc-slider">
+              <div class="range-marks">
+                <span>10</span>
+                <span>150</span>
+                <span>300+</span>
+              </div>
+            </div>
+
+            <!-- Slider 2 -->
+            <div class="calc-field">
+              <div class="calc-field-top">
+                <label for="rangeTicket">Ticket médio do seu serviço ou produto:</label>
+                <span class="calc-value-badge" id="valTicket">R$ 250</span>
+              </div>
+              <input type="range" id="rangeTicket" min="30" max="2500" step="10" value="250" class="calc-slider">
+              <div class="range-marks">
+                <span>R$ 30</span>
+                <span>R$ 1.250</span>
+                <span>R$ 2.500+</span>
+              </div>
+            </div>
+
+            <!-- Slider 3 -->
+            <div class="calc-field">
+              <div class="calc-field-top">
+                <label for="rangeAttendants">Atendentes na equipe hoje:</label>
+                <span class="calc-value-badge" id="valAttendants">2 atendentes</span>
+              </div>
+              <input type="range" id="rangeAttendants" min="1" max="10" step="1" value="2" class="calc-slider">
+              <div class="range-marks">
+                <span>1</span>
+                <span>5</span>
+                <span>10+</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Results Summary Card -->
+          <div class="roi-results-col">
+            <div class="roi-result-card">
+              <div class="res-item highlight-res">
+                <span class="res-label">Potencial de Vendas Recuperadas (Noturno & Fim de Semana):</span>
+                <div class="res-num-wrap">
+                  <span class="res-num text-gradient-green" id="calcRecoveredSales">R$ 14.175</span>
+                  <span class="res-period">/mês</span>
+                </div>
+                <small class="res-sub">estimativa conservadora de ~35% de contatos resgatados fora do horário comercial com conversão de 15%</small>
+              </div>
+
+              <div class="res-divider"></div>
+
+              <div class="res-row">
+                <div class="res-mini">
+                  <span class="res-mini-label">Tempo economizado da equipe:</span>
+                  <span class="res-mini-num" id="calcHoursSaved">~96h /mês</span>
+                </div>
+                <div class="res-mini">
+                  <span class="res-mini-label">Atendimentos 100% via IA:</span>
+                  <span class="res-mini-num" id="calcAutomatedCalls">~1.140 /mês</span>
+                </div>
+              </div>
+
+              <div class="res-cta-box">
+                <a href="#contato" class="btn btn-primary btn-block calc-cta-btn">
+                  <span>Capturar Essa Receita na Minha Empresa</span>
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Setores / Casos de Uso -->
+  <section class="sec sec-dark" id="setores">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Versatilidade</div>
+        <h2>Soluções adaptadas para o modelo do seu negócio</h2>
+        <p>A tecnologia da FCB é modular e personalizada de acordo com o segmento da sua empresa.</p>
+      </div>
+
+      <div class="sectors-grid">
+        <div class="sector-card">
+          <div class="sector-icon">🛍️</div>
+          <h4>Varejo & E-commerce</h4>
+          <p>Catálogo digital interativo, consulta de estoque em tempo real, cálculo de frete, carrinho e pagamento Pix automático dentro do WhatsApp.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🩺</div>
+          <h4>Clínicas & Consultórios</h4>
+          <p>Agendamento automático de consultas e exames, confirmação com 1 clique, envio de preparo e instruções de atendimento 24h.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🏢</div>
+          <h4>Serviços, B2B & Consultorias</h4>
+          <p>Qualificação criteriosa de leads, agendamento de reuniões diretamente na agenda do vendedor e envio de apresentações e propostas.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🎓</div>
+          <h4>Educação & Infoprodutos</h4>
+          <p>Tira-dúvidas de matrículas, envio de ementas, suporte aos alunos e recuperação de carrinhos abandonados com mensagens inteligentes.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">🚗</div>
+          <h4>Concessionárias & Locadoras</h4>
+          <p>Apresentação de veículos com fotos e ficha técnica, agendamento de test-drive e simulação de financiamento preliminar.</p>
+        </div>
+
+        <div class="sector-card">
+          <div class="sector-icon">⚖️</div>
+          <h4>Escritórios de Advocacia & Contabilidade</h4>
+          <p>Triagem de casos, coleta segura de documentos básicos, agendamento de consultas jurídicas e envio de informativos periódicos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Planos & Modelos Sob Medida -->
+  <section class="sec" id="planos">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Planos Flexíveis</div>
+        <h2>Propostas desenhadas sob medida para sua operação</h2>
+        <p>Não vendemos caixas fechadas. Diagnosticamos o volume e a necessidade da sua empresa para entregar o melhor custo-benefício com retorno acelerado.</p>
+      </div>
+
+      <div class="plans-grid">
+        <!-- Plano Start -->
+        <div class="plan-card">
+          <div class="plan-tag">START</div>
+          <h3>Automação Essencial</h3>
+          <p class="plan-desc">Perfeito para empresas que desejam eliminar a fila de espera e automatizar a triagem inicial e FAQ 24h.</p>
+          <div class="plan-pricing-box">
+            <span class="custom-badge">Proposta Sob Medida</span>
+            <small>Dimensionado pelo seu volume de contatos</small>
+          </div>
+          <ul class="plan-features">
+            <li>Chatbot com IA no WhatsApp Oficial e Webchat</li>
+            <li>Respostas inteligentes para dúvidas frequentes</li>
+            <li>Qualificação e triagem de clientes</li>
+            <li>Até 3 atendentes humanos no mesmo número</li>
+            <li>Treinamento da IA com os dados da sua empresa</li>
+            <li>Suporte técnico contínuo</li>
+          </ul>
+          <a href="#contato" class="btn btn-secondary btn-block">Solicitar Proposta Start</a>
+        </div>
+
+        <!-- Plano Pro (Highlight) -->
+        <div class="plan-card plan-highlight">
+          <div class="popular-ribbon">Mais Escolhido</div>
+          <div class="plan-tag">PRO & ESCALA</div>
+          <h3>Operação Comercial Completa</h3>
+          <p class="plan-desc">A solução completa para empresas que querem vender, agendar e atender em escala com inteligência de ponta a ponta.</p>
+          <div class="plan-pricing-box">
+            <span class="custom-badge highlight-badge">Proposta Sob Medida</span>
+            <small>Retorno médio sobre investimento no 1º mês</small>
+          </div>
+          <ul class="plan-features">
+            <li>Tudo do Plano Start +</li>
+            <li>Agente de IA Generativa de Alta Performance</li>
+            <li>Catálogo Digital / Agendamento Integrado no chat</li>
+            <li>Geração de Orçamentos e Cobrança Pix com baixa automática</li>
+            <li>Console Multi-Atendente sem limite de atendentes</li>
+            <li>Funil de Vendas (CRM) e etiquetas inteligentes</li>
+            <li>Integração com seu CRM/ERP via Webhooks e APIs</li>
+            <li>Acompanhamento estratégico quinzenal</li>
+          </ul>
+          <a href="#contato" class="btn btn-primary btn-block">Solicitar Proposta Pro</a>
+        </div>
+
+        <!-- Plano Enterprise -->
+        <div class="plan-card">
+          <div class="plan-tag">ENTERPRISE</div>
+          <h3>Customização Avançada</h3>
+          <p class="plan-desc">Para médias e grandes empresas com múltiplos departamentos, fluxos de ERP complexos e alto volume diário.</p>
+          <div class="plan-pricing-box">
+            <span class="custom-badge">Proposta Sob Medida</span>
+            <small>Engenharia de software e IA dedicada</small>
+          </div>
+          <ul class="plan-features">
+            <li>Tudo do Plano Pro +</li>
+            <li>Múltiplos números de WhatsApp e múltiplos canais</li>
+            <li>Arquitetura de múltiplos agentes autônomos integrados</li>
+            <li>Integração profunda a bancos de dados legados e ERPs</li>
+            <li>Treinamento e finetuning contínuo de modelos</li>
+            <li>Gerente de conta dedicado e SLA de atendimento prioritário</li>
+            <li>Segurança em conformidade com LGPD avançada</li>
+          </ul>
+          <a href="#contato" class="btn btn-secondary btn-block">Falar com Consultor Enterprise</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Roteiro de Implantação -->
+  <section class="sec sec-dark" id="implantacao">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Metodologia Ágil</div>
+        <h2>Do diagnóstico ao ar em poucos dias</h2>
+        <p>Você não precisa entender de programação. Nossa equipe cuida de 100% da configuração, integração e treinamento da IA.</p>
+      </div>
+
+      <div class="timeline-steps">
+        <div class="t-step">
+          <div class="t-num">01</div>
+          <div class="t-body">
+            <h4>Diagnóstico & Mapeamento</h4>
+            <p>Mapeamos seu fluxo comercial, as dúvidas mais comuns dos seus clientes e as regras de negócio que a IA deve seguir rigorosamente.</p>
+          </div>
+          <div class="t-badge">Dia 1 a 2</div>
+        </div>
+
+        <div class="t-step">
+          <div class="t-num">02</div>
+          <div class="t-body">
+            <h4>Treinamento da IA & Integrações</h4>
+            <p>Alimentamos a base de conhecimento com seus catálogos, serviços e manuais, e configuramos as integrações com seu WhatsApp oficial e CRM.</p>
+          </div>
+          <div class="t-badge">Dia 3 a 5</div>
+        </div>
+
+        <div class="t-step">
+          <div class="t-num">03</div>
+          <div class="t-body">
+            <h4>Homologação & Testes em Ambiente Real</h4>
+            <p>Realizamos simulações de atendimento junto com você e sua equipe para validar tom de voz, precisão e velocidade das respostas.</p>
+          </div>
+          <div class="t-badge">Dia 6</div>
+        </div>
+
+        <div class="t-step t-step-done">
+          <div class="t-num">04</div>
+          <div class="t-body">
+            <h4>Go-Live & Suporte Proativo</h4>
+            <p>Sua automação entra no ar atendendo clientes 24h por dia, com monitoramento contínuo da equipe técnica da FCB.</p>
+          </div>
+          <div class="t-badge highlight-t">No Ar!</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: FAQ / Quebra de Objeções -->
+  <section class="sec" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="sec-kicker">Dúvidas Frequentes</div>
+        <h2>Perguntas que os empresários sempre nos fazem</h2>
+        <p>Transparência total para você tomar a melhor decisão para a sua empresa.</p>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>
+            <span class="faq-q">A IA vai parecer um robô chato e mecânico como os antigos chatbots?</span>
+            <span class="faq-arrow">+</span>
+          </summary>
+          <div class="faq-ans">
+            <p><strong>Não!</strong> Esqueça aqueles robôs antigos de "digite 1 para financeiro". A FCB utiliza modelos modernos de Inteligência Artificial Generativa. O bot conversa de maneira humanizada, compreende gírias, erros de digitação, mensagens em áudio e responde com o tom de voz da sua marca.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span class="faq-q">Preciso trocar o número de WhatsApp da minha empresa?</span>
+            <span class="faq-arrow">+</span>
+          </summary>
+          <div class="faq-ans">
+            <p><strong>Não precisa trocar.</strong> Podemos conectar a automação diretamente no seu número de WhatsApp atual através da API Oficial da Meta (Cloud API), preservando seu histórico, contatos e selo de confiança.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span class="faq-q">E se o cliente fizer uma pergunta muito difícil ou quiser falar com uma pessoa?</span>
+            <span class="faq-arrow">+</span>
+          </summary>
+          <div class="faq-ans">
+            <p>A qualquer momento, se o cliente solicitar um atendente ou se a dúvida fugir do escopo programado, a IA transfere a conversa imediatamente para sua equipe humana no console centralizado. O atendente já vê todo o resumo da conversa e assume sem o cliente precisar repetir nada.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span class="faq-q">A automação funciona integrada ao meu CRM ou sistema ERP atual?</span>
+            <span class="faq-arrow">+</span>
+          </summary>
+          <div class="faq-ans">
+            <p>Sim. Conectamos via Webhooks e APIs com as principais plataformas do mercado (HubSpot, RD Station, Kommo, Pipedrive, Bling, Tiny, Asaas, bancos e sistemas próprios). Se sua plataforma tiver API, nós integramos.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>
+            <span class="faq-q">Como funciona a proposta e o contrato?</span>
+            <span class="faq-arrow">+</span>
+          </summary>
+          <div class="faq-ans">
+            <p>Avaliamos seu fluxo atual, canais e volume de contatos para montar uma proposta sob medida, sem taxas ocultas. Você tem total clareza do escopo de implantação e da mensalidade de manutenção e IA.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: CTA Final / Contato -->
+  <section class="sec sec-cta" id="contato">
+    <div class="wrap">
+      <div class="cta-box">
+        <div class="cta-glow"></div>
+        <div class="cta-content">
+          <div class="eyebrow-badge">
+            <span class="eyebrow-dot"></span>
+            <span class="eyebrow-text">TRANSFORME SEU ATENDIMENTO</span>
+          </div>
+          <h2>Pronto para colocar o atendimento da sua empresa no piloto automático?</h2>
+          <p>Solicite uma proposta sob medida com a equipe da FCB Automações e descubra como aumentar suas vendas reduzindo o tempo de resposta.</p>
+
+          <form class="cta-form" id="leadForm">
+            <div class="form-row">
+              <input type="text" id="leadName" class="form-input" placeholder="Seu nome ou da sua empresa" required>
+              <input type="tel" id="leadPhone" class="form-input" placeholder="Seu WhatsApp (com DDD)" required>
+            </div>
+            <div class="form-row">
+              <select id="leadSegment" class="form-input" required>
+                <option value="" disabled selected>Selecione o seu segmento</option>
+                <option value="varejo">Varejo / E-commerce</option>
+                <option value="servicos">Serviços / Consultoria / B2B</option>
+                <option value="saude">Clínica / Saúde / Estética</option>
+                <option value="educacao">Educação / Cursos</option>
+                <option value="outro">Outro segmento</option>
+              </select>
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Solicitar Proposta Sob Medida</span>
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </button>
+            </div>
+          </form>
+
+          <div class="form-feedback" id="formFeedback" style="display:none;">
+            <div class="feedback-card">
+              <div class="check-circle">✓</div>
+              <h4>Solicitação registrada com sucesso!</h4>
+              <p>Entraremos em contato em breve para apresentar a melhor solução sob medida para sua empresa.</p>
+            </div>
+          </div>
+
+          <div class="cta-guarantees">
+            <span>🔒 Dados protegidos conforme a LGPD</span>
+            <span>⚡ Diagnóstico inicial sem custo</span>
+            <span>🚀 Implantação rápida</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="wrap footer-wrap">
+      <div class="footer-brand">
+        <a href="#" class="brandmark" aria-label="FCB Automações">
+          <img src="assets/logo_fcb.png" alt="FCB" class="footer-logo">
+        </a>
+        <p class="footer-tagline">Tecnologia, IA e Automações inteligentes que impulsionam o crescimento e a eficiência de empresas modernas.</p>
+        <div class="footer-pillars-text">TECNOLOGIA &nbsp;|&nbsp; IA &nbsp;|&nbsp; AUTOMAÇÕES &nbsp;|&nbsp; MARKETING &nbsp;|&nbsp; GESTÃO</div>
+      </div>
+
+      <div class="footer-nav">
+        <div class="f-col">
+          <h5>Navegação</h5>
+          <a href="#solucoes">Soluções</a>
+          <a href="#pilares">Como Funciona</a>
+          <a href="#demo">Demonstração</a>
+          <a href="#resultados">Resultados (ROI)</a>
+          <a href="#setores">Segmentos</a>
+        </div>
+        <div class="f-col">
+          <h5>Comercial</h5>
+          <a href="#planos">Planos Sob Medida</a>
+          <a href="#implantacao">Metodologia</a>
+          <a href="#faq">Perguntas Frequentes</a>
+          <a href="#contato">Solicitar Proposta</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap footer-bottom">
+      <div class="copyright">
+        © 2026 <strong>FCB LTDA</strong>. Todos os direitos reservados.
+      </div>
+      <div class="f-links">
+        <span>Material de apresentação comercial · FCB Automações</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Widget -->
+  <div class="wa-floating-widget" id="waFloatingWidget">
+    <!-- Popover Mini-Chat -->
+    <div class="wa-popover" id="waPopover">
+      <div class="wa-popover-header">
+        <div class="wa-popover-avatar">
+          <img src="assets/logo_fcb.png" alt="FCB IA">
+          <span class="online-indicator"></span>
+        </div>
+        <div class="wa-popover-info">
+          <h4>FCB Automações · IA</h4>
+          <span class="status-text">Online agora · Responde em ~3s</span>
+        </div>
+        <button class="wa-popover-close" id="closeWaPopover" aria-label="Fechar popover">✕</button>
+      </div>
+
+      <div class="wa-popover-body">
+        <div class="wa-chat-bubble">
+          👋 <strong>Olá! Quer ver a IA da FCB em ação?</strong><br>
+          Escolha uma das opções abaixo para testar agora mesmo ou calcular quanto sua empresa pode faturar a mais:
+        </div>
+
+        <div class="wa-quick-actions">
+          <a href="#demo" class="wa-action-chip" id="chipDemo">
+            <span class="chip-icon">▶</span>
+            <span>Ver Chatbot no Celular</span>
+          </a>
+          <a href="#calculadora-roi" class="wa-action-chip" id="chipRoi">
+            <span class="chip-icon">📊</span>
+            <span>Simular Retorno Financeiro</span>
+          </a>
+          <a href="#contato" class="wa-action-chip" id="chipProposta">
+            <span class="chip-icon">🚀</span>
+            <span>Solicitar Proposta Sob Medida</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="wa-popover-footer">
+        <a href="#contato" class="btn btn-primary btn-sm btn-block wa-direct-btn">
+          <span>Conversar com a FCB</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Floating Circular Trigger Button -->
+    <button class="wa-trigger-btn" id="waTriggerBtn" aria-label="Abrir assistente virtual da FCB">
+      <span class="wa-badge-notify" id="waNotifyBadge">1</span>
+      <div class="wa-icon-glow"></div>
+      <svg class="wa-icon" viewBox="0 0 32 32" fill="currentColor">
+        <path d="M16 2a14 14 0 0 0-12.1 21L2 30l7.3-1.9A14 14 0 1 0 16 2zm0 25.5c-2.3 0-4.5-.6-6.4-1.8l-.5-.3-4.7 1.2 1.3-4.6-.3-.5A11.5 11.5 0 1 1 16 27.5zm6.3-8.6c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-.9-.8-1.6-1.9-1.8-2.2-.2-.3 0-.5.2-.7.2-.2.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.7-1.7-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.9 5.2.8.4 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 2-.8 2.3-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.3-.6-.5z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Animation Libraries (CDN) -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
